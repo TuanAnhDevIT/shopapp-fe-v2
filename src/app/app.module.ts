@@ -7,16 +7,17 @@ import { OrderComponent } from './order/order.component';
 
 @NgModule({
   declarations: [
-  
     HomeComponent,
-       HeaderComponent,
-       FooterComponent,
-       OrderComponent
+    HeaderComponent,
+    FooterComponent,
+    OrderComponent
   ],
   imports: [
     BrowserModule
   ],
   providers: [],
-  bootstrap: [HomeComponent]
+  bootstrap: [
+    OrderComponent
+  ]
 })
 export class AppModule { }
